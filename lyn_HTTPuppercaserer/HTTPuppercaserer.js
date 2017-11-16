@@ -1,5 +1,5 @@
-let http = require('http')
-let map = require('through2-map')
+const http = require('http')
+const map = require('through2-map')
 
 let upC = map(function(chunk) {
   return chunk.toString().toUpperCase();
