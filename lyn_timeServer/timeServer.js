@@ -1,4 +1,4 @@
-let net = require('net')
+const net = require('net')
 
 function date(i) { return i < 10 ? '0' + i : i }
 
