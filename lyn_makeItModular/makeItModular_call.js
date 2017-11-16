@@ -1,4 +1,4 @@
-let extFunc = require('./makeItModular.js')
+const extFunc = require('./makeItModular.js')
 let dir = process.argv[2]
 let ext = process.argv[3]
  
